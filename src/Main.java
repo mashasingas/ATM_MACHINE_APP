@@ -13,6 +13,7 @@ public class Main {
 	    int	atmN=Integer.parseInt(stin.readLine());
 		System.out.println("ENTER PIN NUMBER");
 		int atmP=Integer.parseInt(stin.readLine());
+		System.out.println("Select Options Below");
 		
 		if(atmNumber==atmN && atmPin==atmP) {
 			while(true) {
