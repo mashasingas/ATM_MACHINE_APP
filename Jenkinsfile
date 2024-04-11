@@ -14,7 +14,7 @@
     stage('Tools'){
     steps{
       tools{
-        maven M3
+       
       }
     }
 }
