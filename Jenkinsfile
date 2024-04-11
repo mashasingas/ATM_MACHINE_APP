@@ -2,6 +2,9 @@ pipeline{
   agent any
   stages{
     stage('Build'){
-      echo 'masha'
+      steps{
+        echo 'Welcom to jenkins'
+      }
   }
+}
 }
