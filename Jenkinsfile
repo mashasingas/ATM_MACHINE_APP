@@ -10,7 +10,8 @@
   steps{
   echo 'Deploy Project to docker'
   }
-    stage('Tools')
+  }
+    stage('Tools'){
     steps{
       tools{
         maven M3
